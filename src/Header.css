@@ -1,0 +1,38 @@
+.header {
+  background-color: var(--slack-color-header);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 5px 0;
+  width: 100%;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.header__search__input__div {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  background-color: #49254a;
+  border: 0.3px solid #978398;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__search__input {
+  background-color: #49254a;
+  border: none;
+  outline: none;
+  flex: 0.97;
+  color: #f9f7f9;
+  margin: 1px;
+  width: 80%;
+}
